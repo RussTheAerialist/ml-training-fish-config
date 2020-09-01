@@ -1,6 +1,6 @@
-source ~/.cargo/env
 
-if test -e ~/.cargo/bin
+if test -e ~/.cargo/env
+    source ~/.cargo/env
     alias cat='~/.cargo/bin/bat'
     alias ls='~/.cargo/bin/exa --icons'
     alias ll='~/.cargo/bin/exa --icons -l'
